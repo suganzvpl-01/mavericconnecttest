@@ -60,7 +60,7 @@ public class MaveriConnectTest extends LaunchActivities {
 		List<String> emailsPOC=corpPage.admEmails();
 		
 		for(String email:emailsPOC) {
-			System.out.println(email);
+			System.out.println("Email ID "+email);
 		}
 		
 					
