@@ -1,0 +1,4 @@
+# Created at 2019-03-12T11:19:44.786
+Boot Manifest-JAR contains absolute paths in classpath 'D:\Suganya Sudalaimani\MavericConnect\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

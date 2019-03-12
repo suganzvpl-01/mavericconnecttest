@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15786" started-at="2019-03-12T05:49:46Z" finished-at="2019-03-12T05:50:01Z">
+    <groups>
+      <group name="high">
+        <method signature="MaveriConnectTest.positiveCredentialCheckwithPOM()[pri:0, instance:com.maveric.test.MaveriConnectTest@6895a785]" name="positiveCredentialCheckwithPOM" class="com.maveric.test.MaveriConnectTest"/>
+      </group> <!-- high -->
+    </groups>
+    <test name="Test" duration-ms="15786" started-at="2019-03-12T05:49:46Z" finished-at="2019-03-12T05:50:01Z">
+      <class name="com.maveric.test.MaveriConnectTest">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.maveric.test.MaveriConnectTest@6895a785]" name="initialization" is-config="true" duration-ms="9636" started-at="2019-03-12T05:49:46Z" finished-at="2019-03-12T05:49:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="positiveCredentialCheckwithPOM()[pri:0, instance:com.maveric.test.MaveriConnectTest@6895a785]" name="positiveCredentialCheckwithPOM" duration-ms="4962" started-at="2019-03-12T05:49:55Z" finished-at="2019-03-12T05:50:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- positiveCredentialCheckwithPOM -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.maveric.test.MaveriConnectTest@6895a785]" name="closeBrowser" is-config="true" duration-ms="1139" started-at="2019-03-12T05:50:00Z" finished-at="2019-03-12T05:50:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.maveric.test.MaveriConnectTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
