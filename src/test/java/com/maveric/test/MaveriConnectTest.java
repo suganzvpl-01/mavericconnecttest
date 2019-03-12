@@ -52,7 +52,6 @@ public class MaveriConnectTest extends LaunchActivities {
 		Assert.assertEquals(actualTitle,prop.getProperty("title") );
 		
 		CorporatePointOfContactPage corpPage= new CorporatePointOfContactPage(driver, wait);
-		
 		//POC Click
 		corpPage.clickOnCorporateAndPOC();		
 		corpPage.admClick();			
